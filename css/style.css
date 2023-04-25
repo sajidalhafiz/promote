@@ -8,14 +8,23 @@
     width: 1200px;
     height: auto;
 }
+h1{
+    font-weight: bold;
+    font-size: 70px;
+}
 
 /* header styling */
+header{
+    background-image: url(../images/home-bg-banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1100px;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .nav-items ul{
     display: flex;
@@ -40,7 +49,8 @@ ul li a{
     background-color: #292930;
     padding: 18px 36px;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 18px;
     border-radius: 8px;
     text-align: center;
     border: none;
@@ -49,8 +59,28 @@ ul li a{
     background-color: white;
     padding: 18px 36px;
     color: #292930;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 18px;
     border-radius: 8px;
     text-align: center;
     border: 2px solid #292930;
+}
+
+/* banner-content styling */
+.content{
+    width: 50%;
+    padding-top: 200px;
+}
+.content h5{
+    padding-bottom: 8px;
+}
+.content h1, p{
+    padding-bottom: 34px;
+}
+h5 span{
+    color: #FEC90C;
+    letter-spacing: 0.25em;
+}
+.heading-purple{
+    color: #5956E8;
 }
