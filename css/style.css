@@ -1,32 +1,44 @@
-*{
+* {
     margin: 0;
     font-family: 'Nunito', sans-serif;
 }
 
-.container{
+.container {
     margin-inline: auto;
     width: 1200px;
     height: auto;
 }
-h1{
+
+h1 {
     font-weight: bold;
     font-size: 70px;
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
 /* header styling */
-header{
+header {
     background-image: url(../images/home-bg-banner.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 1100px;
+    background-size: cover;
+    height: 1074px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-items ul{
+.nav-items ul {
     display: flex;
     list-style: none;
     font-weight: 600;
@@ -34,18 +46,20 @@ nav{
     gap: 60px;
     padding: 0;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: #292930;
-    
+
 }
 
-.nav-btns{
+.nav-btns {
     display: flex;
     gap: 10px;
-    
+
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #292930;
     padding: 18px 36px;
     color: white;
@@ -55,7 +69,8 @@ ul li a{
     text-align: center;
     border: none;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: white;
     padding: 18px 36px;
     color: #292930;
@@ -67,20 +82,96 @@ ul li a{
 }
 
 /* banner-content styling */
-.content{
+.content {
     width: 50%;
     padding-top: 200px;
 }
-.content h5{
+
+.content h5 {
     padding-bottom: 8px;
 }
-.content h1, p{
+
+.content h1,
+p {
     padding-bottom: 34px;
 }
-h5 span{
+
+h5 span {
     color: #FEC90C;
     letter-spacing: 0.25em;
 }
-.heading-purple{
+
+.heading-purple {
     color: #5956E8;
+}
+
+/* services-section-styling */
+main {
+    background: #292930;
+}
+
+.title-section {
+    width: 50%;
+    text-align: center;
+    padding-top: 172px;
+    margin: auto;
+    color: white;
+}
+
+.title-section h5 {
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.title-section h3 {
+    padding-bottom: 90px;
+}
+
+/* card-styling */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+.card {
+    padding: 40px;
+    border: 1px solid #424245;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #36363E, #292930);
+}
+
+.card>img {
+    width: 148px;
+    padding-bottom: 24px;
+}
+
+.card-title {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 12px;
+}
+
+.card-description {
+    color: #D0D0D0;
+    padding-bottom: 24px;
+}
+
+.btn-tertiary {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 18px 60px;
+    border: 1px solid #535355;
+    border-radius: 8px;
+    background-color: #29293000;
+    font-size: 16px;
+    color: #535355;
+}
+.btn-tertiary:hover {
+    background-color: #FFDC60;
+    font-size: 16px;
+    color: #292930;
 }
