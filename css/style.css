@@ -19,6 +19,11 @@ h3 {
     font-size: 40px;
 }
 
+h4{
+    padding-block: 10px;
+    padding-left: 20px;
+}
+
 h5 {
     font-weight: 500;
     font-size: 16px;
@@ -91,7 +96,7 @@ ul li a {
     padding-bottom: 8px;
 }
 
-.content h1,
+.content > h1,
 p {
     padding-bottom: 34px;
 }
@@ -106,7 +111,7 @@ h5 span {
 }
 
 /* services-section-styling */
-main {
+.services {
     background: #292930;
 }
 
@@ -132,6 +137,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 80px;
+    padding-bottom: 172px;
 }
 .card {
     padding: 40px;
@@ -150,6 +156,7 @@ main {
     font-weight: 600;
     font-size: 25px;
     padding-bottom: 12px;
+    padding-left: 0;
 }
 
 .card-description {
@@ -174,4 +181,59 @@ main {
     background-color: #FFDC60;
     font-size: 16px;
     color: #292930;
+}
+
+/* about-section-styling */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-block: 170px;
+}
+.col-left{
+    width: 100%;
+}
+.col-left img{
+    width: 100%;
+}
+.col-right{
+    /* padding: 40px; */
+}
+
+.col-right > .title-section{
+    width: 100%;
+    padding-top: 0;
+    margin: 0;
+    text-align: start;
+    color: #292930;
+}
+.col-right > .title-section > h3{
+    padding-bottom: 20px;
+}
+hr{
+    border-top: 1px solid #CFCFCF;
+    width: 100%;
+}
+.description{
+    color: #555555;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.points{
+    padding-block: 20px;
+}
+
+.point{
+    display: flex;
+    padding-block: 20px;
+}
+.point > img{
+    width: 86px;
+    height: 86px;
+}
+
+.point-descriptioin > p{
+    padding-left: 20px;
 }
