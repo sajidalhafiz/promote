@@ -60,10 +60,6 @@ h1 {
     font-size: 20px;
 }
 
-.required-mark {
-    color: #FF5449;
-}
-
 .input-elements input {
     padding: 16px 32px;
     font-size: 18px;
@@ -75,14 +71,15 @@ h1 {
 }
 
 .input-elements input:focus {
-    outline: 2px solid #FFDC60;
+    outline: 2px solid #FEC90C;
 }
 
-.form>small{
+.form>small {
     font-weight: 500;
     font-size: 16px;
 }
-.form>small a{
+
+.form>small a {
     color: #5956E8;
     font-weight: 600;
 }

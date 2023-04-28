@@ -81,7 +81,7 @@ ul li a {
 }
 
 .btn-primary:hover {
-    background-color: #FEC90C;
+    background-color: #FFDC60;
     color: #292930;
 }
 
@@ -97,9 +97,9 @@ ul li a {
 }
 
 .btn-secondary:hover {
-    background-color: #FEC90C;
+    background-color: #FFDC60;
     color: #292930;
-    border: 2px solid #FEC90C;
+    border: 2px solid #FFDC60;
 }
 
 /* banner-content styling */
@@ -118,7 +118,7 @@ p {
 }
 
 h5 span {
-    color: #FEC90C;
+    color: #FFDC60;
     letter-spacing: 0.25em;
 }
 
@@ -313,7 +313,7 @@ footer {
 }
 
 .footer-sub-content>.btn-tertiary {
-    background-color: #FEC90C;
+    background-color: #FFDC60;
 }
 
 .footer-sub-content>.btn-tertiary:hover {
