@@ -7,10 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css-link -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- font -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-    </style>
 
     <title>Promote</title>
 
@@ -25,13 +21,14 @@
             <div class="nav-items">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
             <div class="nav-btns">
-                <button class="btn-secondary">Sign In</button><button class="btn-primary">Sign Up</button>
+                <button class="btn-secondary" onclick="window.location.href = 'signin.html';">Sign In</button><button class="btn-primary"
+                    onclick="window.location.href = 'signup.html';">Sign Up</button>
             </div>
         </nav>
         <!-- banner-section -->
@@ -48,7 +45,7 @@
     <!-- main-section -->
     <main>
         <!-- services-section -->
-        <section class="services">
+        <section id="services">
             <!-- header-div -->
             <div class="container title-section">
                 <img src="images/services-icon.png" alt="">
@@ -108,7 +105,7 @@
             </div>
         </section>
         <!-- about-section -->
-        <section class="container about">
+        <section id="about" class="container">
             <div class="col-left">
                 <img src="images/about-section-image.png" alt="">
             </div>
@@ -176,8 +173,8 @@
                         <h5><img src="images/page-icon.png" alt=""> Pages</h5>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="#services" target="_self">Services</a></li>
+                            <li><a href="#about">About</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
@@ -201,7 +198,8 @@
                 </div>
                 <hr>
                 <div class="bottom-content">
-                    <p>Copyright © Nextlevel | Designed by VictorFlow - Powered by Webflow - Developed by Sajid Al-hafiz</p>
+                    <p>Copyright © Nextlevel | Designed by VictorFlow - Powered by Webflow - Developed by Sajid Al-hafiz
+                    </p>
                 </div>
             </div>
         </div>
