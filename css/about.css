@@ -45,3 +45,25 @@
     font-size: 12px;
     color: #D0D0D0;
 }
+
+/* our valuse styling */
+#our-values{
+    background: #292930;
+}
+#our-values .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.card{
+    text-align: center;
+}
+.card-description{
+    text-align: justify;
+}
+.card hr{
+    width: 100px;
+    border-top: 2px solid #D0D0D0;
+    margin-inline: auto;
+    margin-top: 24px;
+}
