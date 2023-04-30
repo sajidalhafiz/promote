@@ -23,21 +23,22 @@ submit_btn.onclick = (e) => {
     if (uname === "" && email === "" && pass === "" && cpass === "") {
         return swal("Oops..!", "Input fields are empty.", "warning"); // warning, info, error, success
     }
-    else{
-        if(!isValidUser(uname) || uname === ""){
+    else {
+        if (!isValidUser(uname) || uname === "") {
             swal("Oops..!", "Username is not valid or empty field.", "warning");
         }
         else if (!isValidEmail(email) || email === "") {
             swal("Oops..!", "Email is not valid.", "warning");
         }
-        else if(!isValidPass(pass) || pass === "") {
+        else if (!isValidPass(pass) || pass === "") {
             swal("Oops..!", "Password is not valid or empty password field.", "warning");
         }
         else if (pass !== cpass) {
             swal("Oops..!", "Password is not matching.", "warning");
         }
-        else{
-            return swal("Successful", "Your registration is complete.", "success");
+        else {
+            swal("Successful", "Your registration is complete.", "success");
+            return window.location.href = 'signin.html';
         }
     }
 }

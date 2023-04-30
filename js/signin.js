@@ -18,6 +18,7 @@ login_btn.onclick = (e) => {
     }else{
         if(emaill == s_email && passs == s_pass){
             swal("Successful", "You are signed in.", "success");
+            return window.location.href='home.html';
         }else{
             swal("Oops..!", "Something is wrong.", "warning");
         }
