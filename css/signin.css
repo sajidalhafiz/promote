@@ -7,21 +7,21 @@
 
 h1 {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 32px;
 }
 
 .heading-purple {
     color: #5956E8;
 }
 
-.page-title {
+.signin-section {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.page-title img {
+.signin-section img {
     width: 100%;
     height: 100vh;
 }
@@ -39,30 +39,32 @@ h1 {
 .form {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 28px;
 }
 
-.name-email,
+/* .name-email,
 .security {
     display: flex;
-    gap: 60px;
-}
+    flex-direction: column;
+    gap: 80px;
+    padding-block: 10px;
+} */
 
 .input-elements {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 400px;
+    width: 300px;
 }
 
 .input-elements label {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .input-elements input {
-    padding: 16px 32px;
-    font-size: 18px;
+    padding: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: #292930;
     border: none;
@@ -76,7 +78,7 @@ h1 {
 
 .form>small {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .form>small a {
@@ -84,16 +86,20 @@ h1 {
     font-weight: 600;
 }
 
+#forgot-pass{
+    text-align: right;
+}
+
 .btn-primary {
     background-color: #292930;
-    padding: 18px 36px;
+    padding: 14px 0;
     color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 8px;
     text-align: center;
     border: none;
-    width: 400px;
+    width: 100%;
 }
 .btn-primary:hover {
     background-color: #FFDC60;
