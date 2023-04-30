@@ -7,13 +7,13 @@
 
 .container {
     margin-inline: auto;
-    width: 1200px;
+    width: 1100px;
     height: auto;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 70px;
+    font-size: 48px;
 }
 
 h3 {
@@ -28,7 +28,7 @@ h4 {
 
 h5 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 /* header styling */
@@ -36,7 +36,7 @@ h5 {
     background-image: url(../images/home-bg-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1074px;
+    height: 100vh;
 }
 
 nav {
@@ -44,11 +44,13 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
+nav>img{
+    width: 150px;
+}
 .nav-items ul {
     display: flex;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     gap: 60px;
     padding: 0;
 }
@@ -71,10 +73,10 @@ ul li a {
 
 .btn-primary {
     background-color: #292930;
-    padding: 18px 36px;
+    padding: 10px 20px;
     color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 8px;
     text-align: center;
     border: none;
@@ -87,10 +89,10 @@ ul li a {
 
 .btn-secondary {
     background-color: white;
-    padding: 18px 36px;
+    padding: 10px 20px;
     color: #292930;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 8px;
     text-align: center;
     border: 2px solid #292930;
@@ -103,9 +105,14 @@ ul li a {
 }
 
 /* banner-content styling */
+
 .content {
     width: 50%;
-    padding-top: 200px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
 
 .content h5 {
@@ -152,26 +159,26 @@ h5 span {
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
+    gap: 50px;
     padding-bottom: 172px;
 }
 
 .card {
-    padding: 40px;
+    padding: 48px;
     border: 1px solid #424245;
     border-radius: 30px;
     background-image: linear-gradient(to bottom, #36363E, #292930);
 }
 
 .card>img {
-    width: 148px;
+    width: 100px;
     padding-bottom: 24px;
 }
 
 .card-title {
     color: white;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 12px;
     padding-left: 0;
 }
@@ -186,8 +193,8 @@ h5 span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    padding: 18px 60px;
+    gap: 14px;
+    padding: 14px 0px;
     border: 1px solid #535355;
     border-radius: 8px;
     background-color: #29293000;
@@ -206,7 +213,7 @@ h5 span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
     padding-block: 170px;
 }
 
@@ -218,10 +225,6 @@ h5 span {
     width: 100%;
 }
 
-/* .col-right {
-    padding: 40px;
-} */
-
 .col-right>.title-section {
     width: 100%;
     padding-top: 0;
@@ -229,7 +232,9 @@ h5 span {
     text-align: start;
     color: #292930;
 }
-
+.title-section>img{
+    width: 100px;
+}
 .col-right>.title-section>h3 {
     padding-bottom: 20px;
 }
@@ -241,7 +246,7 @@ hr {
 
 .description {
     color: #555555;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 0;
 }
 
@@ -255,8 +260,12 @@ hr {
 }
 
 .point>img {
-    width: 86px;
-    height: 86px;
+    width: 66px;
+    height: 66px;
+}
+
+.point-descriptioin>h4{
+    padding-top: 0;
 }
 
 .point-descriptioin>p {
@@ -305,6 +314,7 @@ footer {
     background: #5B5B61;
     border-radius: 8px;
     border: none;
+    outline: none;
     color: white;
     font-size: 16px;
     font-weight: 500;
