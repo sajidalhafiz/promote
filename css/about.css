@@ -1,0 +1,47 @@
+/* header styling */
+.about-page-header {
+    background-image: url(../images/about-page-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+/* page title styling */
+.about-page-header>h1 {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+}
+
+/* counter section styling */
+.counter-section {
+    background-color: #292930;
+    padding-block: 50px;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    gap: 10px;
+}
+
+.counter>h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+}
+
+.counter-description p {
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #D0D0D0;
+}
