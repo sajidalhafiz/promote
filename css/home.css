@@ -415,3 +415,28 @@ footer {
 .bottom-content p {
     padding-bottom: 0;
 }
+
+
+/*
+    responsive css 
+*/
+@media screen and (max-width: 556px) {
+    body {
+      background-color: blue;
+
+    }
+    .home-page-header{
+        width: 100%;
+        height: auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
